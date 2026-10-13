@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Doe – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>John Doe</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>I'm a full‑stack developer with a passion for building clean, performant web applications. I enjoy turning ideas into reality using modern JavaScript, CSS, and backend technologies.</p>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project">
+        <h3>Task Tracker</h3>
+        <p>A responsive task management app built with vanilla JavaScript and localStorage.</p>
+      </article>
+      <article class="project">
+        <h3>Weather Dashboard</h3>
+        <p>Displays current weather and forecasts using the OpenWeatherMap API.</p>
+      </article>
+      <article class="project">
+        <h3>Portfolio Site</h3>
+        <p>This very site, showcasing my work and skills.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <label>
+        Name
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+    <p class="form-message" id="form-message"></p>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 John Doe</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
